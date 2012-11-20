@@ -1,4 +1,4 @@
-assert(getprop("ro.product.device") == "pyramid" || getprop("ro.build.product") == "pyramid" || getprop("ro.product.board") == "pyramid");
+assert(getprop("ro.product.device") == "mako" || getprop("ro.build.product") == "mako" || getprop("ro.product.board") == "mako");
 ui_print("Extracting System Files...");
 set_progress(1.000000);
 run_program("/sbin/busybox", "mount", "/system");
